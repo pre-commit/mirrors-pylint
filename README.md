@@ -5,7 +5,7 @@ Mirror of pylint package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For fixmyjs: see https://bitbucket.org/logilab/pylint/
+For pylint: see https://bitbucket.org/logilab/pylint/
 
 
 ### Using pylint with pre-commit
