@@ -3,3 +3,5 @@
     entry: pylint
     language: python
     files: \.py$
+    args: []
+
