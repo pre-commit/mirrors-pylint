@@ -1,7 +1,0 @@
--   id: pylint
-    name: pylint
-    entry: pylint
-    language: python
-    files: \.py$
-    args: []
-

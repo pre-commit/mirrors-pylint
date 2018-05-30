@@ -2,6 +2,6 @@
     name: pylint
     entry: pylint
     language: python
-    files: \.py$
+    'types': [python]
     args: []
-
+    additional_dependencies: []
