@@ -17,8 +17,8 @@ Add this to your `.pre-commit-config.yaml`:
         hooks:
         -   id: pylint
 
+`pre-commit` runs `pylint` from an isolated virtualenv.  Many
+of `pylint`'s checks perform dynamic analysis which will fail there.
+You may find configuring `pylint` as a [`local` hook] more useful.
 
-Note: this way pylint runs in an isolated Python virtualenv.
-If you need pylint to do dynamic analysis of the code
-in the app's own Python virtualenv, use it as a
-[Repository local hook](https://pre-commit.com/#repository-local-hooks).
+[`local` hook]: https://pre-commit.com/#repository-local-hooks
