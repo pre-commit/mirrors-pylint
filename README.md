@@ -16,3 +16,9 @@ Add this to your `.pre-commit-config.yaml`:
         rev: ''  # Use the sha / tag you want to point at
         hooks:
         -   id: pylint
+
+`pre-commit` runs `pylint` from an isolated virtualenv.  Many
+of `pylint`'s checks perform dynamic analysis which will fail there.
+You may find configuring `pylint` as a [`local` hook] more useful.
+
+[`local` hook]: https://pre-commit.com/#repository-local-hooks
