@@ -1,3 +1,7 @@
+This mirror is deprecated, use [pylint] directly.
+
+[pylint]: https://github.com/pycqa/pylint
+
 pylint mirror
 =============
 
