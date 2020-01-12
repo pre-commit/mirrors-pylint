@@ -1,4 +1,4 @@
-This mirror is deprecated, use [pylint] directly.
+This mirror repository is deprecated, use [pylint] directly.
 
 [pylint]: https://github.com/pycqa/pylint
 
