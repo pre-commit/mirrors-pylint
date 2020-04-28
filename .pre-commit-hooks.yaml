@@ -3,6 +3,6 @@
     entry: pylint
     language: python
     'types': [python]
-    args: []
+    args: ["--score=n"]
     require_serial: false
     additional_dependencies: []
